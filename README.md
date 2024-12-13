@@ -1,6 +1,6 @@
 # 8bitPe: Explorando a História dos Video Games Retrôs 🎮
 
-Este é um projeto acadêmico desenvolvido como parte das atividades do curso de [insira o curso aqui], cujo objetivo é apresentar a evolução dos consoles de videogame retrô por meio de uma interface web interativa.
+Este é um projeto acadêmico desenvolvido como parte das atividades do curso de Analise e desenvolvimento de sistema, cujo objetivo é apresentar a evolução dos consoles de videogame retrô por meio de uma interface web interativa.
 
 ## 🖥️ Sobre o Projeto
 
