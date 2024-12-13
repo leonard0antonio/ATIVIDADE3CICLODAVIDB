@@ -1,0 +1,303 @@
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+    height: 65px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    max-height: 65px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header nav ul.principal {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul.principal li {
+    margin-right: 20px;
+    position: relative;
+}
+
+header nav ul.principal li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav ul.principal li ul.oculto {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    padding: 10px 0;
+    list-style: none;
+    border-radius: 4px;
+}
+
+li.emLinha a span {
+	color: rgb(255, 255, 255);
+	font-size: 14px;
+	display: inline-block;
+	transform: rotate(0deg);
+	transition: transform 0.3s;
+}
+
+li.emLinha:hover a span {
+	transform: rotate(-180deg);
+	transition: transform 0.3s;
+}
+
+ul.oculto {
+	visibility: hidden;
+	position: absolute;
+	background: #fff;
+	border: solid 1px #000;
+	border-radius: 5px;
+	list-style: none;
+	padding: 5px 10px;
+	margin-left: 60px;
+	transform: translateY(-10px);
+	opacity: 0;
+	transition: transform 0.3s, opacity 0.2s;
+}
+
+ul.oculto li {
+	padding: 5px 0;
+}
+
+ul.oculto a {
+	color: #000;
+}
+
+li.emLinha:hover ul.oculto {
+	visibility: visible;
+	transform: translateY(0);
+	opacity: 1;
+	transition: transform 0.3s, opacity 0.2s;
+}
+
+header nav ul.principal li:hover ul.oculto {
+    display: block;
+}
+
+header nav ul.principal li ul.oculto li {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul.principal li ul.oculto li a {
+    padding: 10px 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.container {
+	max-width: 1152px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Cabeçalho */
+
+header {
+	background-color: #000000d0;
+	padding: 10px 0;
+}
+
+h1 {
+	margin: 0;
+}
+
+ul.principal {
+	margin: 36px 0 0 0;
+	padding: 0;
+	list-style: none;
+}
+
+li.emLinha {
+	display: inline;
+	margin: 0 16px 0 0;
+}
+
+li.emLinha:last-child {
+	margin: 0;
+}
+
+li.emLinha a {
+	color: #fff;
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+li.emLinha a:hover {
+	color: rgba(180, 5, 5, 0.842);
+	transition: color 0.3s;
+}
+
+li.emLinha a span {
+	color: #fff;
+	font-size: 14px;
+	display: inline-block;
+	transform: rotate(0deg);
+	transition: transform 0.3s;
+}
+
+li.emLinha:hover a span {
+	transform: rotate(-180deg);
+	transition: transform 0.3s;
+}
+
+ul.oculto {
+	visibility: hidden;
+	position: absolute;
+	background: #fff;
+	border: solid 1px #000;
+	border-radius: 5px;
+	list-style: none;
+	padding: 5px 10px;
+	margin-left: 60px;
+	transform: translateY(-10px);
+	opacity: 0;
+	transition: transform 0.3s, opacity 0.2s;
+}
+
+ul.oculto li {
+	padding: 5px 0;
+}
+
+ul.oculto a {
+	color: #000;
+}
+
+li.emLinha:hover ul.oculto {
+	visibility: visible;
+	transform: translateY(0);
+	opacity: 1;
+	transition: transform 0.3s, opacity 0.2s;
+}
+
+
+.ms2 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.s2h3 {
+	margin: 0 auto;
+	font-size: 36px;
+}
+
+footer {
+	background: #000000d0;
+	padding: 10px;
+}
+
+.logo {
+	width: 70px;
+}
+
+.divImagem {
+	text-align: center;
+}
+
+.divImagem img {
+	margin-bottom: 30px;
+}
+
+.divImagem img:last-child {
+	margin-bottom: 0;
+}
+
+/* Rodape */
+
+.divRodapeImagem {
+	margin-bottom: 36px;
+}
+
+.divRodape p {
+	color: #BDC3DC;
+	margin: 0 0 30px 0;
+	text-align: center;
+}
+
+.divRodape p:last-child {
+	margin: 0 0 0 0;
+}
+
+.divRodape p.pLink {
+	font-weight: bold;
+	color: #fff;
+}
+
+.divRodape p.pMargem {
+	margin-bottom: 5px;
+}
+
+.divRodape p:first-child {
+	margin-top: 100px;
+}
+
+.divRodape p.pLink2 {
+	margin-top: 60px;
+}
+
+.divSvg img {
+	margin-right: 15px;
+}
+
+/*============ INTERNAS ============*/
+
+.interna {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.legenda {
+	width: 580px;
+	text-align: justify;
+	font-size: 20px;
+	margin: 0;
+}
+
+.figuraLegenda {
+	width: 552px;
+	margin-left: 120px;
+}
+
+.figuraLegenda img {
+	max-width: 100%;
+}
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .container img {
+    max-width: 60px;
+    float: left;
+}
+
+footer .divRodape img {
+    margin: 0 10px;
+    max-height: 30px;
+    filter: brightness(1) invert(0);
+}
