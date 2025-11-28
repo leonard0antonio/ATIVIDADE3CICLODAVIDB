@@ -16,8 +16,14 @@
   - 🚀 `HTML5` - Usado para estruturar o conteúdo da página.  
   - 🚀 `CSS3` - Responsável pela estilização e design responsivo da página.
 
-## 📸 Capturas de Tela  
-Não há capturas de tela disponíveis no repositório, mas o site possui uma interface simples com menus e informações sobre os consoles retrôs.
+-----
+
+## 📷 Demonstração
+
+
+![Demo da aplicação](ATIVIDADE3CICLODAVIDB/ATT3CICLODAVIDB/demo01.gif)
+
+-----
 
 ## 🎯 Lições Aprendidas  
 - 💡 **Desafio enfrentado:** Desenvolver um design responsivo para múltiplos dispositivos.
